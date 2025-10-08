@@ -5,6 +5,7 @@ vim.g.loaded_netrw = 1                                  -- disable netrw
 vim.g.loaded_netrwPlugin = 1                            --  disable netrw
 
 vim.opt.incsearch = true                                -- make search act like search in modern browsers
+vim.opt.autochdir = true                                -- automatically change working directory
 vim.opt.backup = false                                  -- creates a backup file
 vim.opt.clipboard = "unnamedplus"                       -- allows neovim to access the system clipboard
 vim.opt.cmdheight = 1                                   -- more space in the neovim command line for displaying messages
