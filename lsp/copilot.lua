@@ -1,7 +1,7 @@
 require('copilot').setup({
   -- Suggestion panel and keymaps, adjust as needed
   panel = {
-    enabled = true,
+    enabled = false,
     auto_refresh = false,
     keymap = {
       jump_prev = "[[",
@@ -16,7 +16,7 @@ require('copilot').setup({
     },
   },
   suggestion = {
-    enabled = true,
+    enabled = false,
     auto_trigger = false,
     hide_during_completion = true,
     debounce = 75,

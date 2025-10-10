@@ -51,10 +51,10 @@ return {
             go = { "golangcilint" },
 
             -- JavaScript/TypeScript
-            javascript = { "eslint_d" },
-            typescript = { "eslint_d" },
-            javascriptreact = { "eslint_d" },
-            typescriptreact = { "eslint_d" },
+            -- javascript = { "eslint_d" },
+            -- typescript = { "eslint_d" },
+            -- javascriptreact = { "eslint_d" },
+            -- typescriptreact = { "eslint_d" },
 
             -- Lua
             lua = { "luacheck" },
@@ -63,6 +63,9 @@ return {
             sh = { "shellcheck" },
             bash = { "shellcheck" },
             zsh = { "shellcheck" },
+
+            -- Fish shell
+            fish = { "fish" },
 
             -- PHP/Laravel
             php = { "pint" },

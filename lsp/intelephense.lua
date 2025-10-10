@@ -1,7 +1,12 @@
 local blink = require("blink.cmp")
 
-local get_intelephense_license = function()
-    local f = assert(io.open(os.getenv("HOME") .. "/intelephense/license.txt", "rb"))
+local function get_intelephense_license()
+    local path = os.getenv("HOME") .. "/intelephense/license.txt"
+    local f = io.open(path, "rb")
+    if not f then
+        vim.notify("Intelephense license file not found: " .. path, vim.log.levels.INFO)
+        return nil
+    end
     local content = f:read("*a")
     f:close()
     return string.gsub(content, "%s+", "")

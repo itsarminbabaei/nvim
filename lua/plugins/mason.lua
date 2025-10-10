@@ -18,20 +18,22 @@ return {
                 "html-lsp",                    -- HTML LSP
                 "css-lsp",                     -- CSS LSP
                 "vue-language-server",         -- Vue LSP
+                "copilot-language-server",     -- Copilot LSP
 
                 -- Formatters (for conform.nvim and general use)
                 "stylua",
                 "goimports",
                 -- Note: gofmt comes with Go installation, not managed by Mason
-                "prettier",
+                -- "prettier",
                 "black",
                 "isort",
 
                 -- Linters and diagnostics
                 "golangci-lint",
-                "eslint_d",
+                -- "eslint_d",
                 "luacheck", -- Lua linting
                 "pint",     -- Laravel Pint for PHP (formatting & linting)
+                "biome",
 
                 -- Additional useful tools
                 "delve",      -- Go debugger
