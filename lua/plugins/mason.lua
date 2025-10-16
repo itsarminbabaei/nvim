@@ -18,7 +18,6 @@ return {
                 "html-lsp",                    -- HTML LSP
                 "css-lsp",                     -- CSS LSP
                 "vue-language-server",         -- Vue LSP
-                "copilot-language-server",     -- Copilot LSP
 
                 -- Formatters (for conform.nvim and general use)
                 "stylua",

@@ -9,17 +9,20 @@ return {
     },
     cli = {
       mux = {
-        backend = "zellij",
+        backend = "tmux",
         enabled = true,
+      },
+      tools = {
+        amp = { cmd = { "amp" } },
       },
     },
   },
   config = function(_, opts)
     require("sidekick").setup(opts)
-    require("copilot").setup({
-      suggestion = { enabled = false },
-      panel = { enabled = false },
-    })
+    -- require("copilot").setup({
+    --   suggestion = { enabled = false },
+    --   panel = { enabled = false },
+    -- })
   end,
   keys = {
     {
