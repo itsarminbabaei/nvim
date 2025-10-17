@@ -14,6 +14,7 @@ return {
       },
       tools = {
         amp = { cmd = { "amp" } },
+        ollama = { cmd = { "ollama", "run", "codellama" } },
       },
     },
   },
