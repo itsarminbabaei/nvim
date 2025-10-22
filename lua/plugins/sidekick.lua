@@ -14,7 +14,7 @@ return {
       },
       tools = {
         amp = { cmd = { "amp" } },
-        ollama = { cmd = { "ollama", "run", "codellama" } },
+        ollama = { cmd = { "ollama", "run", "kimi-k2:1t-cloud" } },
       },
     },
   },
